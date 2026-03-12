@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      mitt:
+        specifier: ^3.0.1
+        version: 3.0.1
       vue:
         specifier: ^3.5.29
         version: 3.5.30(typescript@5.9.3)
@@ -748,6 +751,9 @@ packages:
   memorystream@0.3.1:
     resolution: {integrity: sha512-S3UwM3yj5mtUSEfP41UZmt/0SCoVYUcU1rkXv+BQ5Ig8ndL4sPoJNBUJERafdPb5jjHJGuMgytgKvKIf58XNBw==}
     engines: {node: '>= 0.10.0'}
+
+  mitt@3.0.1:
+    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
 
   mrmime@2.0.1:
     resolution: {integrity: sha512-Y3wQdFg2Va6etvQ5I82yUhGdsKrcYox6p7FfL1LbK2J4V01F9TGlepTIhnK24t7koZibmg82KGglhA1XK5IsLQ==}
@@ -1618,6 +1624,8 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.5.5
 
   memorystream@0.3.1: {}
+
+  mitt@3.0.1: {}
 
   mrmime@2.0.1: {}
 
